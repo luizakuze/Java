@@ -21,7 +21,7 @@ public class Vetores1 {
 		int numeros[] = new int[5];
 		
 		// Declarar e inicializar
-		int outros_numeros[] = {1, 3, 8,};
+		int outrosNumeros[] = {1, 3, 8,};
 		
 		float valores[] = new float[5];
 		char caracteres[] = new char[20];

@@ -36,18 +36,18 @@ public class Piramide {
 	static void piramide (int n) {
 		// quantidade de linhas
 		for (int i = 1; i <= n; i++) {
-			// quantidade de espaços na frente 
-	        for (int j = 1; j <= n - i; j++) {
-	            System.out.print(' ');
-	        }
+		    // quantidade de espaços na frente 
+	            for (int j = 1; j <= n - i; j++) {
+	                System.out.print(' ');
+	            }
 			
-			// quantidade de asteriscos
-			for (int k = 1; k <= 2*i-1; k++) {
-					System.out.print('*');
+		    // quantidade de asteriscos
+		    for (int k = 1; k <= 2*i-1; k++) {
+		        System.out.print('*');
 				
-			}
+		    }
 			
-			System.out.println();
+		    System.out.println();
 		}
 	}
 

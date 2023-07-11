@@ -7,10 +7,10 @@ import java.util.Scanner;
 Exercício: Escreva uma função que gera uma pirâmide de altura n 
 e base 2*n-1. Por exemplo, a saída para n = 6 seria:
  
- 		*
- 	   ***
- 	  *****
- 	 *******
+        *
+       ***
+      *****
+     *******
     *********
    *********** 
    

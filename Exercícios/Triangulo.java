@@ -5,7 +5,7 @@ import java.util.Scanner;
 /* 
  
 Exercício: Fazer uma função que gera um triângulo lateral de altura 
-2*(n+1) e largura n. Por exemplo, a saída para n = 4 seria:
+2*n+1 e largura n. Por exemplo, a saída para n = 4 seria:
 
     *
     **

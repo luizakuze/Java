@@ -1,6 +1,6 @@
 package Luiza;
 
-// Encapsulamente
+// Encapsulamento
 // Capsula
 // Os clientes não podem ter acesso direto aos atributos diretamente!
 

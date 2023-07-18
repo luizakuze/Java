@@ -1,23 +1,23 @@
 package Luiza;
 
-/* Benefícios da Herança
+/* BenefÃ­cios da HeranÃ§a
 
-- Evita a repetição de código;
-- Facilita a manutenção do programa;
+- Evita a repetiÃ§Ã£o de cÃ³digo;
+- Facilita a manutenÃ§Ã£o do programa;
 - ...
 
-- Classe específica;
+- Classe especÃ­fica;
 - Sub-classe;
 - Classe filha.
 
  */
 
 
-// O aluno é uma Pessoa!
+// O aluno Ã© uma Pessoa!
 
 /*
 Quando uma classe herda de outra classe ela ganha:
-- TODOS os atributos e métodos da classe mãe
+- TODOS os atributos e mÃ©todos da classe mÃ£e
  */
 public class Aluno extends Pessoa{
 	private String nome;

@@ -2,14 +2,14 @@ package Luiza;
 
 // Encapsulamente
 // Capsula
-// Os clientes n„o podem ter acesso direto aos atributos diretamente!
+// Os clientes n√£o podem ter acesso direto aos atributos diretamente!
 
 
 public class Programa {
 	
 	public static void main(String[] args) {
-		Cliente luiza = new Cliente("Luiza Kuze", "Rua do CÈu, 45");
-		Cliente maria = new Cliente("Maria Luana", "Rua do CÈu, 45");
+		Cliente luiza = new Cliente("Luiza Kuze", "Rua do C√©u, 45");
+		Cliente maria = new Cliente("Maria Luana", "Rua do C√©u, 45");
 		
 		Conta conta_luiza = new Conta(1, 100.0f, 200.0f, luiza);
 		Conta conta_maria = new Conta(2, 300.0f, 500.0f, maria);
@@ -21,9 +21,9 @@ public class Programa {
 		System.out.println("Saldo da Luiza: (Depois do saque) " + conta_luiza.getSaldo());
 		
 		//conta_luiza.limite = 100.000f;
-		//system.out.println("Saldo da Luiza: (Depois do aumentar o limite forÁado) " + conta_luiza.getSaldo());
+		//system.out.println("Saldo da Luiza: (Depois do aumentar o limite for√ßado) " + conta_luiza.getSaldo());
 		
 		//conta_luiza.saldo = -9000; Encapsulamento!! 
-		//System.out.println("Saldo da Luiza: (Depois do saque forÁado) " + conta_luiza.saldo);
+		//System.out.println("Saldo da Luiza: (Depois do saque for√ßado) " + conta_luiza.saldo);
 	}
 }

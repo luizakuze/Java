@@ -3,8 +3,8 @@ package Luiza;
 Getters e Setters
 
 Getter
-- … um mÈtodo p˙blico, que serve para consultar dados;
-- A nomenclatura desses mÈtodos È getNome_do_atributo()
+- √â um m√©todo p√∫blico, que serve para consultar dados;
+- A nomenclatura desses m√©todos √© getNome_do_atributo()
  */
 
 public class Conta {
@@ -40,11 +40,11 @@ public class Conta {
 		this.saldo = this.saldo + valor;
 	}
 	
-	// MÈtodo getter do atributo Saldo
+	// M√©todo getter do atributo Saldo
 	public float getSaldo() {
 		return this.saldo + this.limite;
 	}
 	
 	// public float getLimite (...)
-	// N„o È necess·rio j· que n„o usamos o acesso dele em nenhum momento diretamente alterando ele
+	// N√£o √© necess√°rio j√° que n√£o usamos o acesso dele em nenhum momento diretamente alterando ele
 }

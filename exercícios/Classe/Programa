@@ -1,0 +1,16 @@
+package Luiza;
+
+/* Escreva um código em Java que apresente a classe PessoaE, com atributos nome, endereço e telefone e, o método imprimir.
+O método deve mostrar na tela todos os valores dos atributos. */
+
+public class Programa {
+
+	public static void main(String[] args) {
+		PessoaE pessoa = new PessoaE("Luiza", "Rua do Céu", "1234-5678");
+		
+		pessoa.imprime();
+		
+
+	}
+
+}

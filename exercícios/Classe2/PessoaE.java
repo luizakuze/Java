@@ -1,6 +1,6 @@
 package Luiza;
 
-// DeclaraÁ„o da classe
+// Declara√ß√£o da classe
 public class PessoaE {
 	
 	// Atributos
@@ -8,11 +8,11 @@ public class PessoaE {
 	private String endereco;
 	private String telefone;
 	
-	// Construtos padr„o
+	// Construtor padr√£o
 	public PessoaE () {
-		this.nome = "Nome n„o informado";
-		this.endereco = "EndereÁo n„o informado";
-		this.telefone = "Telefone n„o informado";
+		this.nome = "Nome n√£o informado";
+		this.endereco = "Endere√ßo n√£o informado";
+		this.telefone = "Telefone n√£o informado";
 	}
 	
 	// Construtor vazio
@@ -22,7 +22,7 @@ public class PessoaE {
 		this.telefone = telefone;
 	}
 		
-	// MÈtodos
+	// M√©todos
 	
 	public String getNome() {
 		return this.nome;
@@ -50,7 +50,7 @@ public class PessoaE {
 	
 	public void imprime() {
 		System.out.println("Nome: " + this.nome);
-		System.out.println("EndereÁo: " + this.endereco);
+		System.out.println("Endere√ßo: " + this.endereco);
 		System.out.println("Telefone: " + this.telefone);
 	}
 

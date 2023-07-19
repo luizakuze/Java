@@ -7,6 +7,7 @@ package Luiza;
 - Por padrão a JVM - Java Virtual Machine, cria em tempo de execução,
   um construtor padrão - um construtor vazio;
 - Podemos ter mais de um construtor na classe;
+- É responsável por inicializar os objetos da classe.
  */
 public class Programa2 {
 

@@ -8,7 +8,7 @@ Classes não relacionadas precisam compartilhar comportamento: As interfaces per
 
 Herança múltipla: Em Java, uma classe pode implementar várias interfaces, permitindo uma forma limitada de herança múltipla, onde uma classe pode ter comportamentos de várias fontes distintas.
 
-## Classes abstratas são preferíveis quando:
+## Classes abstratas são preferíveis quando
 
 Compartilhamento de código comum com alguma implementação: Se você tem código comum a ser compartilhado entre várias classes, uma classe abstrata pode fornecer métodos concretos (com implementação) que podem ser herdados pelas classes filhas. Isso evita duplicação de código e facilita a manutenção.
 

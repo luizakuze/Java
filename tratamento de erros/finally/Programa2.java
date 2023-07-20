@@ -3,7 +3,8 @@ package Luiza;
 // Finally
 
 // Acontece independente se entrou no catch ou não
-// É uma sengunda ação
+// É uma segunda ação
+// Só funciona em conjunto com try/catch
 import java.util.Scanner;
 
 public class Programa2 {

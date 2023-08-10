@@ -1,4 +1,4 @@
-# Java 💻✨
+# Java - Estudo da lingugagem 💻✨
 
 ### Esse está sendo o meu estudo da **linguagem Java** nas férias de julho! 2023 🏖 <br>
 
